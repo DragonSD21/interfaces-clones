@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { BsArrowLeft, AiOutlineHome, AiOutlineSearch, MdNotificationsNone, AiOutlineMail } from '../styles/Icons';
+import { BsArrowLeft, AiOutlineHome, AiOutlineSearch, MdNotificationsNone, AiOutlineMail } from '../../styles/Icons';
 
 export const Container = styled.div`
     display: flex;
