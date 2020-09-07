@@ -1,2 +1,2 @@
-export { DropdownOption } from './Provider';
-export { DropdownProvider } from './Option';
+export { DropdownProvider } from './Provider';
+export { DropdownOption } from './Option';

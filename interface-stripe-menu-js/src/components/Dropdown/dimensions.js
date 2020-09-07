@@ -1,6 +1,6 @@
 import { useState, useCallback, useLayoutEffect } from 'react';
 
-const getDimensions = element => element.getBoundingClientReact();
+const getDimensions = element => element.getBoundingClientRect();
 
 export function useDimensions(responsive = true) {
     const [dimensions, setDimensions] = useState(null);
@@ -26,7 +26,7 @@ export function useDimensions(responsive = true) {
                 }
             }
         }
-    }, []);
+    }, [element, hook, responsive]);
 
     return [hook, dimensions, element];
 }
