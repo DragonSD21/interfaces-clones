@@ -11,7 +11,7 @@ export function DropdownProvider({ children }) {
         id,
         optionDimensions,
         optionCenterX,
-        WrapperContent,
+        WrappedContent,
         backgroundHeight,
     }) => {
         setOptions(items => [
@@ -20,7 +20,7 @@ export function DropdownProvider({ children }) {
                 id,
                 optionDimensions,
                 optionCenterX,
-                WrapperContent,
+                WrappedContent,
                 backgroundHeight,
             }
         ])
